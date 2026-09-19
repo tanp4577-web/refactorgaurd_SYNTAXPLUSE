@@ -1,11 +1,22 @@
-> ⚠️ **This repository now contains two separate projects.** `Refactor Guard`
-> (below, at the repo root) was our original build. After re-reading the
-> official Theme 1 guideline (code retrieval, evaluated via MTEB on the CoIR
-> apps dataset), we determined Refactor Guard does not address that problem
-> statement, and built the actual required solution separately in
-> [`code-retrieval-agent/`](code-retrieval-agent/) — **that folder is the
-> official hackathon submission.** Refactor Guard is kept here as a
-> standalone side project.
+# 📁 Repository Overview — Read This First
+
+**Team SyntaxPulse — Samsung PRISM Gen AI Hackathon 3.0**
+
+This repository contains **two separate projects**. Here's what each one is,
+and which one matters for judging:
+
+| | [`code-retrieval-agent/`](code-retrieval-agent/) | Refactor Guard (this root folder) |
+|---|---|---|
+| **What it does** | Given a natural-language query, ranks code snippets by relevance | Safely renames/refactors code across files, with test-verified rollback |
+| **Status vs. the official theme** | ✅ **This is the official Theme 1 submission** — built specifically to match the official "Agentic Code Intelligence" guideline (code retrieval, evaluated via MTEB on the CoIR-Retrieval/apps dataset) | ⚠️ Built *before* we had the official guideline; solves a real problem, but not the one the guideline actually asks for |
+| **Read this next** | [`code-retrieval-agent/README.md`](code-retrieval-agent/README.md) | Continue reading below |
+
+**In short: if you're evaluating this submission for Theme 1, go straight to
+[`code-retrieval-agent/`](code-retrieval-agent/) — that's the deliverable.**
+Refactor Guard is kept here as a separate, working side project, not part of
+the official submission.
+
+---
 
 # Refactor Guard
 
