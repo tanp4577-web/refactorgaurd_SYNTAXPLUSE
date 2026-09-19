@@ -1,3 +1,12 @@
+> ⚠️ **This repository now contains two separate projects.** `Refactor Guard`
+> (below, at the repo root) was our original build. After re-reading the
+> official Theme 1 guideline (code retrieval, evaluated via MTEB on the CoIR
+> apps dataset), we determined Refactor Guard does not address that problem
+> statement, and built the actual required solution separately in
+> [`code-retrieval-agent/`](code-retrieval-agent/) — **that folder is the
+> official hackathon submission.** Refactor Guard is kept here as a
+> standalone side project.
+
 # Refactor Guard
 
 **Samsung PRISM Hackathon — Agentic Code Intelligence**
